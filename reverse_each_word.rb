@@ -4,7 +4,10 @@ def reverse_each_word(sentence)
   
   words_array.each do |word|
     word_array = sentence.split('')
-    puts word_array
+    reversed_array = []
+    
+    word_array.each do |word|
+      reverse_array.unshift(word)
     
     # reversed_array.unshift(word)
   end
