@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   reversed = []
   
   words_array.each do |word|
-    reverse.unshift(word)
+    reversed.unshift(word)
   end
   
   reversed
