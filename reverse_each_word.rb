@@ -1,6 +1,10 @@
 def reverse_each_word(sentence)
   words_array = sentence.split(' ')
-  reversed
+  reversed = []
+  
+  words_array.each do |word|
+    reverse.unshift(word)
+  end
 end
 
-puts reverse_each_word('hey how are you')
+# puts reverse_each_word('hey how are you')
