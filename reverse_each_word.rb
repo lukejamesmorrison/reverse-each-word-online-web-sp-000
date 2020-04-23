@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     word_array = sentence.split
     puts word_array
     
-    reversed_array.unshift(word)
+    # reversed_array.unshift(word)
   end
   
   # reversed_array
