@@ -9,6 +9,8 @@ def reverse_each_word(sentence)
     word_array.each do |letter|
       reversed_array.unshift(letter)
     end
+    
+    new_array << reversed_array
   end
   
   puts words_array
