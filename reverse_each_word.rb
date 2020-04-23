@@ -10,7 +10,7 @@ def reverse_each_word(sentence)
       reversed_array.unshift(letter)
     end
     
-    puts word_array
+    puts reversed_array
   end
   
   # reversed_array
