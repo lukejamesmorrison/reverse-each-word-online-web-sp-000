@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
     new_array << reversed_array
   end
   
-  puts new_array
+  puts new_array.inspect
 end
 
 reverse_each_word('hey how are you')
