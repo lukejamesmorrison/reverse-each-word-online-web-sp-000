@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
     reversed_array.unshift(word)
   end
   
-  reversed_array
+  # reversed_array
 end
 
 reverse_each_word('hey how are you')
