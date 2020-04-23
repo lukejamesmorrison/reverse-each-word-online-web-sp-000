@@ -10,7 +10,7 @@ def reverse_each_word(sentence)
       reversed_array.unshift(letter)
     end
     
-    new_array << reversed_array
+    new_array << reversed_array.join
   end
   
   puts new_array.inspect
