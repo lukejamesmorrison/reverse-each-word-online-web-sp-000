@@ -15,5 +15,3 @@ def reverse_each_word(sentence)
   
   puts new_array.join(' ')
 end
-
-reverse_each_word('hey how are you')
