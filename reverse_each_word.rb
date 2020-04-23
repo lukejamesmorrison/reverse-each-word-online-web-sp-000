@@ -13,5 +13,5 @@ def reverse_each_word(sentence)
     new_array << reversed_array.join
   end
   
-  puts new_array.join(' ')
+  new_array.join(' ')
 end
