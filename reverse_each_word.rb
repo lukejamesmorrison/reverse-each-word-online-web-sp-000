@@ -1,7 +1,7 @@
 def reverse_each_word(sentence)
   words_array = sentence.split(' ')
   
-  words_array.collect do |word|
+  words_array.collect! do |word|
     word_array = word.split('')
     reversed_array = []
     
