@@ -9,4 +9,4 @@ def reverse_each_word(sentence)
   reversed_array
 end
 
-puts reverse_each_word('hey how are you')
+# puts reverse_each_word('hey how are you')
